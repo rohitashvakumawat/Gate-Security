@@ -10,7 +10,7 @@ This project implements a gate security system using facial recognition technolo
 
 ## Usage
 
-1. Run the `gate_security_system.py` script.
+1. Run the `main.py` script.
 2. Ensure that the webcam is properly set up and faces are clearly visible.
 3. Personnel recognized by the system will have their attendance marked automatically.
 4. View attendance records in the `Attendance.csv` file.
@@ -30,5 +30,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Example
 
-![Gate Security System Demo](demo.gif)
+![Gate Security System Demo](demo.png)
 
