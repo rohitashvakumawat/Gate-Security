@@ -40,18 +40,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Author
 
-[Your Name](https://github.com/yourusername)
-
-
-## Credits
-
-- [face_recognition](https://github.com/ageitgey/face_recognition) library for facial recognition.
-- [MySQL Connector/Python](https://dev.mysql.com/doc/connector-python/en/) for MySQL database connectivity.
-
-## Example
-
-![Gate Security System Demo](demo.png)
-
+[Rohitashva](https://github.com/rohitashvakumawat)
 
 
 ## Credits
