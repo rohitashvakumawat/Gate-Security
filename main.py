@@ -7,7 +7,7 @@ import numpy as np
 import face_recognition
 from datetime import datetime
 
-mycon = sqltor.connect(host='localhost',user='root',passwd='nikhil',database='nikhil')
+mycon = sqltor.connect(host='localhost',user='root',passwd='<your passwd>',database='<your db name>')
 cursor=mycon.cursor()
 
 if mycon.is_connected():
@@ -24,7 +24,7 @@ except:
     # print("Table created successfully")
 
 #Opened csv file
-with open("R:\\Python\\Database_\\Main\\fd1.csv",'r') as nf:
+with open("<your path .fd1.csv>",'r') as nf:
     x=csv.reader(nf)
     lis=[]
     line=0
@@ -40,7 +40,7 @@ with open("R:\\Python\\Database_\\Main\\fd1.csv",'r') as nf:
 
 
 def download_image():
-    os.chdir("R:\\Python\\Database_\\Images")
+    os.chdir("<folder of images path/Images>")
     for y in data:
         res=requests.get(y["url"])
         name=y["name"]
